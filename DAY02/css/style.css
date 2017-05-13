@@ -1,0 +1,46 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.5; /* 단위없이 그냥 1.5? */
+	margin-bottom: 27px;
+}
+h1, h2, h3, h4, h5, h6{
+	margin-bottom: 27px;
+	margin-top: 0;
+}
+h1{
+	font-size: 68.66455078125px;
+	line-height: 60.75px;
+}
+h2{
+	font-size: 54.931640625px;
+	line-height: 40.5px;
+}
+h3{
+	font-size: 43.9453125px;
+	line-height: 40.5px;
+}
+h4{
+	font-size: 35.15625px;
+	line-height: 40.5px;
+}
+h5{
+	font-size: 28.125px;
+	line-height: 40.5px;
+}
+h6{
+	font-size: 22.5px;
+	line-height: 27px;	
+}
+.h5left{
+	width: 50%;
+	float:left;
+}
+.h5right{
+	width: 50%;
+	float: right;
+}
