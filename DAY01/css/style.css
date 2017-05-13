@@ -1,0 +1,54 @@
+html{
+	/* 브라우저 기본 font-size: 16px */	
+	font-size: 10px; /* 기본이 16px인데 왜 10px?? */
+}
+
+body{
+	font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	/* 속기형 : 시계방향 */
+	/* margin: 상 우 하 좌 ; */
+	margin-top: 0;
+	margin-right: 0;
+	/* 행간 = 폰트 사이즈(18px) * 행간비율(1.5) */	
+	margin-bottom: 27px;
+	margin-left: 0;		
+}
+
+h6{
+	/* 글자크기 : 본문 폰트사이즈 x 비율(1.25) */
+	/* 18 X 1.25 = 22.5px; */
+	font-size: 2.25rem; 
+	/* line-height : 본문 폰트사이즈 x 행간비율(1.5) */
+	/* 18 X 1.5 = 27.49px */
+	line-height: 27.49px; 
+}
+
+h5{
+	/* 18 X 1.25 X 1.25 = 28.13px */
+	font-size: 2.813rem; 
+	/* 18 X 1.5 = 27.49px */
+	line-height: 27.49px;
+}
+
+h4{
+	font-size: 3.52rem;
+	line-height: 41.9px;
+}
+
+h3{
+	font-size: 4.4rem;
+	line-height: 41.9px;
+}
+
+h2{
+	font-size: 5.5rem;
+	line-height: 41.9px;
+}
+
+h1{
+	font-size: 6.88rem;
+	line-height: 63.26px;
+}
