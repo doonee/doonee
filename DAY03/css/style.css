@@ -1,0 +1,49 @@
+body{
+	margin: 0;
+	padding: 0;
+	/*background: url("../images/baseline27px.png");*/		
+	background: linear-gradient(transparent 97%, rgba(51, 102, 255, 0.6) 97%);
+	background-size: 1px 24px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.5; /* 단위없이 그냥 1.5? */
+	margin-bottom: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	margin-bottom: 24px;
+	margin-top: 0;
+}
+h1{
+	font-size: 61.03515625px;
+	line-height: 72px;
+}
+h2{
+	font-size: 48.828125px;
+	line-height: 48px;
+}
+h3{
+	font-size: 39.0625px;
+	line-height: 48px;
+}
+h4{
+	font-size: 31.25px;
+	line-height: 48px;
+}
+h5{
+	font-size: 25px;
+	line-height: 48px;
+}
+h6{
+	font-size: 20px;
+	line-height: 24px;	
+}
+.h5left{
+	width: 50%;
+	float:left;
+}
+.h5right{
+	width: 50%;
+	float: right;
+}
